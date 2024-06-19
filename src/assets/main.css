@@ -1,0 +1,21 @@
+@import './base.css';
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+a:visited {
+  color: var(--color-text);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}

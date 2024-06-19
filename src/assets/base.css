@@ -1,0 +1,41 @@
+:root {
+  --c-brand: #F1D021;
+  --c-accent: #1B2E31;
+  --c-accent-dark: #142325;
+  --c-white: #F1F1F1;
+  --c-gray: #858585;
+
+
+  --color-background: var(--c-accent);
+  --color-background-dark: var(--c-accent-dark);
+
+  --color-border: var(--c-brand);
+
+  --color-heading: var(--c-brand);
+  --color-text: var(--c-white);
+  --color-text-muted: var(--c-gray);
+
+  --brand-shadow: 0 0 4px 20px var(--c-brand);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  line-height: 1.6;
+  font-family:
+    Inter,
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
